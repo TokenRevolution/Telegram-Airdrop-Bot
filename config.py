@@ -9,13 +9,13 @@ airdrop_live = True
 
 # Telegram
 api_token = (
-    "<YOUR BOT TOKEN>"  # More: https://core.telegram.org/bots#3-how-do-i-create-a-bot
+    "<5574973683:AAGZTxJVk0Ndw6Ws3anqh0U2yGRXA316wPc>"  # More: https://core.telegram.org/bots#3-how-do-i-create-a-bot
 )
 
 host = ""  # ip/host where the bot is running
 
 log_channel = 0  # Channel ID. Example: -1001355597767
-admins = []  # Telegram User ID's. Admins are able to execute command "/airdroplist"
+admins = [@tkrev_team]  # Telegram User ID's. Admins are able to execute command "/airdroplist"
 airdrop_cap = 100  # Max airdrop submissions that are being accepted
 wallet_changes = 3  # How often a user is allowed to change their wallet address
 
